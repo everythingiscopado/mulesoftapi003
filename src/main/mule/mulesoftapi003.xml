@@ -4,7 +4,7 @@
   </http:listener-config>
   <flow name="hellomuleFlow">
     <http:listener config-ref="Listener-config" doc:id="ednfvu" doc:name="Listener" path="/hellomule"></http:listener>
-    <set-payload value='"Hello Mule!"' doc:name="Set payload" doc:id="tczwht" />
+    <set-payload value='"Hello Mule v1.0.0!"' doc:name="Set payload" doc:id="tczwht" />
     <logger doc:name="Logger" doc:id="tcirgt" message="attributes.requestPath"/>
   </flow>
 </mule>
